@@ -4,7 +4,8 @@
 // ─────────────────────────────────────────────────────────────────────────────
 import axios from 'axios';
 
-const BASE = '/api/chatlog';
+const API = import.meta.env.VITE_API_URL || '';
+const BASE = `${API}/api/chatlog`;
 
 // Save a completed patient conversation; returns { success, referenceNumber }
 export const saveChatLog = async (payload) => {

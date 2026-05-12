@@ -5,7 +5,8 @@
 // ─────────────────────────────────────────────────────────────────────────────
 import axios from 'axios';
 
-const BASE = '/api/doctors';
+const API = import.meta.env.VITE_API_URL || '';
+const BASE = `${API}/api/doctors`;
 
 // ── Register a new doctor ─────────────────────────────────────────────────────
 // `formData` must be a FormData instance (multipart/form-data) because it may
