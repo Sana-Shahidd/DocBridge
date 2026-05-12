@@ -1,0 +1,12 @@
+{
+  "escrow_id": "347f9e84556a46fea86fdc9a906d13e5",
+  "file_hash": "7f64bc7e46c7fb4a46fc840b12af046ac815ff40c7ff2b13979d807995840d09",
+  "journalist_name": "Jane Reporter",
+  "source_label": "6cea57c2fb6cbc2a",
+  "stored_at": "2026-05-08T18:58:59.938450+00:00",
+  "approval_status": "approved",
+  "verif_token": "f714f390a5c05aa0d387aee2c1db77f6a777c43cb89cb85fb490eb0b3a59c76f",
+  "original_filename": "tmpz76c9str.wav",
+  "enc_file_hash": "c0536007902ca661624b3840d553bd05d46eae210c14936de0f5dd6730c521c4",
+  "approved_at": "2026-05-08T18:58:59.941446+00:00"
+}

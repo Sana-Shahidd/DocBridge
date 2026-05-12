@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files – NEVER commit these
+.env
+server/.env
+client/.env
+client/.env.local
+
+# Build output
+client/dist/
+client/build/
+
+# Uploaded doctor photos – store in cloud (S3/Cloudinary) for production
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Testing
+coverage/
+.pytest_cache/

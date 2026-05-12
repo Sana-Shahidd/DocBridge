@@ -1,0 +1,29 @@
+{
+  "title": "SynthShield Source Protection \u2014 Review Package",
+  "escrow_reference": "347f9e84556a46fea86fdc9a906d13e5",
+  "journalist": "Jane Reporter",
+  "generated_at": "2026-05-08T18:58:59.940446+00:00",
+  "original_file": {
+    "stored": true,
+    "hash": "7f64bc7e46c7fb4a46fc840b12af046ac815ff40c7ff2b13979d807995840d09",
+    "location": "Cryptographic escrow (encrypted, not accessible without legal order)"
+  },
+  "synthetic_audio": {
+    "path": "dummy_audio.wav",
+    "identity_changed": true,
+    "style_preserved": true
+  },
+  "what_was_changed": [
+    "Voice pitch was shifted to disguise identity",
+    "Vocal tract formants were modified",
+    "Subtle ambient noise was added for naturalness"
+  ],
+  "what_was_preserved": [
+    "Speaking pace and rhythm",
+    "Emphasis and emotional tone",
+    "Content and wording (unchanged)"
+  ],
+  "retrieval_notice": "The original unmodified recording is stored in encrypted escrow. It cannot be accessed without a valid legal order referencing this escrow ID.",
+  "legal_disclaimer": "This package is prepared for source review only. Do not distribute. Publication approval by the source constitutes informed consent to use the synthetic version.",
+  "approval_status": "pending"
+}

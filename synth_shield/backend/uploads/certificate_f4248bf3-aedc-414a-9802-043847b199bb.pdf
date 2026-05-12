@@ -1,0 +1,79 @@
+{
+  "certificate_id": "219d6b971b314f8cbe2fe2e03115997a",
+  "generated": "2026-05-09 19:53:35 UTC",
+  "file_info": {
+    "filename": "Crop-Diseases-The-Nightmare-of-Every-Farmer-1200x565.jpeg",
+    "file_hash": "cbaa036ce9d97645b5c32fe9de7fc2752d2d9ab5024ec114343b13f88e5a633c",
+    "file_type": "image",
+    "file_size_bytes": 132883
+  },
+  "analysis_result": {
+    "reality_score": 49,
+    "verdict": "Likely Fake",
+    "confidence": 0.6874,
+    "signal_breakdown": [
+      {
+        "signal": "CNN Deepfake Classifier",
+        "contribution": 0.202,
+        "finding": "Moderate deepfake indicators detected \u2014 requires further review.",
+        "weight": "30%",
+        "fake_score": 0.4983
+      },
+      {
+        "signal": "Quantum Noise Analysis",
+        "contribution": 0.09,
+        "finding": "Some frequency anomalies \u2014 noise profile slightly atypical.",
+        "weight": "18%",
+        "fake_score": 0.3698
+      },
+      {
+        "signal": "Error Level Analysis",
+        "contribution": 0.1365,
+        "finding": "High ELA response in multiple regions \u2014 significant compositing detected.",
+        "weight": "13%",
+        "fake_score": 0.7772
+      },
+      {
+        "signal": "Metadata Integrity",
+        "contribution": 0.0862,
+        "finding": "Minor EXIF irregularities \u2014 metadata may have been partially stripped.",
+        "weight": "13%",
+        "fake_score": 0.4909
+      }
+    ],
+    "color": "red",
+    "weighted_fake_probability": 0.5147,
+    "geolocation": {
+      "likely_region": "Southeast Asia",
+      "confidence": 0.263,
+      "visual_cues_detected": [
+        "Dense tropical/subtropical vegetation \u2014 vivid-green foliage",
+        "High colour saturation \u2014 tropical or subtropical climate",
+        "Overcast or obscured sky",
+        "Dense architectural structures \u2014 complex building facades",
+        "Flat horizontal rooflines \u2014 modern or Middle Eastern architecture",
+        "Square text blobs detected \u2014 CJK script (East/Southeast Asian origin)"
+      ],
+      "estimated_time_of_day": "Overcast / Unknown",
+      "climate_zone": "Tropical",
+      "region_scores": {
+        "Southeast Asia": 2.5,
+        "East Asia": 2.5,
+        "South Asia": 1.5,
+        "Latin America": 1.0,
+        "Sub-Saharan Africa": 1.0,
+        "Western Europe": 0.5,
+        "Middle East / North Africa": 0.5
+      },
+      "time_period": {
+        "estimated_decade": "2020s\u2013Present",
+        "confidence": 1.0,
+        "indicators": [
+          "Full colour saturation \u2014 modern digital photograph"
+        ]
+      }
+    },
+    "news_verification": null
+  },
+  "note": "PDF generation skipped \u2014 reportlab not installed."
+}

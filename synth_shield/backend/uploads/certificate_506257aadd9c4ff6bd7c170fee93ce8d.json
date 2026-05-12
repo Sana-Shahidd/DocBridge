@@ -1,0 +1,72 @@
+{
+  "certificate_id": "506257aadd9c4ff6bd7c170fee93ce8d",
+  "generated": "2026-05-09 12:03:02 UTC",
+  "file_info": {
+    "filename": "photo.png",
+    "file_hash": "e568a2efcf0442e0013448379624d1265059a9591a5a93e04f68e3bce6c76ccb",
+    "file_type": "image",
+    "file_size_bytes": 1118
+  },
+  "analysis_result": {
+    "reality_score": 65,
+    "verdict": "Suspicious",
+    "confidence": 0.6396,
+    "signal_breakdown": [
+      {
+        "signal": "CNN Deepfake Classifier",
+        "contribution": 0.1991,
+        "finding": "Moderate deepfake indicators detected \u2014 requires further review.",
+        "weight": "30%",
+        "fake_score": 0.4911
+      },
+      {
+        "signal": "Quantum Noise Analysis",
+        "contribution": 0.1139,
+        "finding": "Some frequency anomalies \u2014 noise profile slightly atypical.",
+        "weight": "18%",
+        "fake_score": 0.4682
+      },
+      {
+        "signal": "Error Level Analysis",
+        "contribution": 0.007,
+        "finding": "Uniform compression history \u2014 no evidence of localized editing.",
+        "weight": "13%",
+        "fake_score": 0.04
+      },
+      {
+        "signal": "Metadata Integrity",
+        "contribution": 0.0344,
+        "finding": "EXIF data intact and consistent with device capture.",
+        "weight": "13%",
+        "fake_score": 0.196
+      }
+    ],
+    "color": "amber",
+    "weighted_fake_probability": 0.3544,
+    "geolocation": {
+      "likely_region": "Middle East / North Africa",
+      "confidence": 1.0,
+      "visual_cues_detected": [
+        "Sparse vegetation \u2014 arid or high-density urban environment",
+        "High colour saturation \u2014 tropical or subtropical climate",
+        "Blue sky with moderate brightness \u2014 morning or afternoon"
+      ],
+      "estimated_time_of_day": "Morning / Afternoon",
+      "climate_zone": "Tropical",
+      "region_scores": {
+        "Middle East / North Africa": 0.8
+      },
+      "time_period": {
+        "estimated_decade": "2020s\u2013Present",
+        "confidence": 0.833,
+        "indicators": [
+          "Full colour saturation \u2014 modern digital photograph",
+          "Minimal JPEG artefacts \u2014 high-quality modern sensor",
+          "Low sharpness \u2014 film grain or older lens"
+        ]
+      }
+    },
+    "news_verification": null
+  },
+  "note": "PDF generation skipped \u2014 reportlab not installed."
+}

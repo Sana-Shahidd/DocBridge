@@ -1,0 +1,79 @@
+{
+  "certificate_id": "9cf1494e78db4f62bf8203de80eaf12a",
+  "generated": "2026-05-11 23:07:09 UTC",
+  "file_info": {
+    "filename": "photo.jpg",
+    "file_hash": "4f5f180fa89d46ac12d96c18f6941ea2e106ac2ddd20a0de3dda8a93bd16b8cb",
+    "file_type": "image",
+    "file_size_bytes": 55971
+  },
+  "analysis_result": {
+    "reality_score": 39,
+    "verdict": "Likely Fake",
+    "confidence": 0.6275,
+    "signal_breakdown": [
+      {
+        "signal": "CNN Deepfake Classifier",
+        "contribution": 0.2016,
+        "finding": "Moderate deepfake indicators detected \u2014 requires further review.",
+        "weight": "30%",
+        "fake_score": 0.4973
+      },
+      {
+        "signal": "Quantum Noise Analysis",
+        "contribution": 0.1299,
+        "finding": "Some frequency anomalies \u2014 noise profile slightly atypical.",
+        "weight": "18%",
+        "fake_score": 0.534
+      },
+      {
+        "signal": "Error Level Analysis",
+        "contribution": 0.1742,
+        "finding": "High ELA response in multiple regions \u2014 significant compositing detected.",
+        "weight": "13%",
+        "fake_score": 0.9917
+      },
+      {
+        "signal": "Metadata Integrity",
+        "contribution": 0.1013,
+        "finding": "Minor EXIF irregularities \u2014 metadata may have been partially stripped.",
+        "weight": "13%",
+        "fake_score": 0.5767
+      }
+    ],
+    "color": "red",
+    "weighted_fake_probability": 0.607,
+    "geolocation": {
+      "likely_region": "East Asia",
+      "confidence": 0.528,
+      "visual_cues_detected": [
+        "Moderate colour saturation \u2014 temperate climate",
+        "Overcast or obscured sky",
+        "Dense architectural structures \u2014 complex building facades",
+        "Flat horizontal rooflines \u2014 modern or Middle Eastern architecture",
+        "White road markings \u2014 European or Asian road standard",
+        "Square text blobs detected \u2014 CJK script (East/Southeast Asian origin)"
+      ],
+      "estimated_time_of_day": "Overcast / Unknown",
+      "climate_zone": "Temperate",
+      "region_scores": {
+        "East Asia": 2.8,
+        "Western Europe": 1.0,
+        "Southeast Asia": 1.0,
+        "Middle East / North Africa": 0.5
+      },
+      "time_period": {
+        "estimated_decade": "2020s\u2013Present",
+        "confidence": 0.581,
+        "indicators": [
+          "Full colour saturation \u2014 modern digital photograph",
+          "High JPEG blockiness (41.3) \u2014 heavy compression typical of pre-2005 devices",
+          "High sharpness \u2014 modern high-resolution camera",
+          "High sensor noise (44.7) \u2014 film or early digital sensor"
+        ]
+      }
+    },
+    "news_verification": null
+  },
+  "note": "PDF generation skipped \u2014 reportlab not installed."
+}

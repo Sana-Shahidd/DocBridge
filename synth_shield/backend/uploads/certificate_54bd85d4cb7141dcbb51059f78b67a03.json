@@ -1,0 +1,76 @@
+{
+  "certificate_id": "54bd85d4cb7141dcbb51059f78b67a03",
+  "generated": "2026-05-11 23:07:10 UTC",
+  "file_info": {
+    "filename": "real.png",
+    "file_hash": "91c3825e7ea59b9e24d4c60d3e1d33a230b10ec423fed3d76d2733a44412386f",
+    "file_type": "image",
+    "file_size_bytes": 958
+  },
+  "analysis_result": {
+    "reality_score": 62,
+    "verdict": "Suspicious",
+    "confidence": 0.6083,
+    "signal_breakdown": [
+      {
+        "signal": "CNN Deepfake Classifier",
+        "contribution": 0.201,
+        "finding": "Moderate deepfake indicators detected \u2014 requires further review.",
+        "weight": "30%",
+        "fake_score": 0.4958
+      },
+      {
+        "signal": "Quantum Noise Analysis",
+        "contribution": 0.1384,
+        "finding": "Some frequency anomalies \u2014 noise profile slightly atypical.",
+        "weight": "18%",
+        "fake_score": 0.5691
+      },
+      {
+        "signal": "Error Level Analysis",
+        "contribution": 0.0073,
+        "finding": "Uniform compression history \u2014 no evidence of localized editing.",
+        "weight": "13%",
+        "fake_score": 0.0417
+      },
+      {
+        "signal": "Metadata Integrity",
+        "contribution": 0.0346,
+        "finding": "EXIF data intact and consistent with device capture.",
+        "weight": "13%",
+        "fake_score": 0.1967
+      }
+    ],
+    "color": "amber",
+    "weighted_fake_probability": 0.3813,
+    "geolocation": {
+      "likely_region": "South Asia",
+      "confidence": 0.286,
+      "visual_cues_detected": [
+        "Dense tropical/subtropical vegetation \u2014 vivid-green foliage",
+        "Warm sandy/ochre palette \u2014 desert or arid region",
+        "Overcast or obscured sky"
+      ],
+      "estimated_time_of_day": "Overcast / Unknown",
+      "climate_zone": "Desert / Arid",
+      "region_scores": {
+        "South Asia": 2.0,
+        "Southeast Asia": 1.5,
+        "Middle East / North Africa": 1.5,
+        "Latin America": 1.0,
+        "Sub-Saharan Africa": 1.0
+      },
+      "time_period": {
+        "estimated_decade": "2020s\u2013Present",
+        "confidence": 0.833,
+        "indicators": [
+          "Full colour saturation \u2014 modern digital photograph",
+          "Minimal JPEG artefacts \u2014 high-quality modern sensor",
+          "Low sharpness \u2014 film grain or older lens"
+        ]
+      }
+    },
+    "news_verification": null
+  },
+  "note": "PDF generation skipped \u2014 reportlab not installed."
+}
