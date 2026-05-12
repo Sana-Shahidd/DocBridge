@@ -85,7 +85,7 @@ export const translations = {
     // Page hero
     hero: {
       title:          'Find Your Doctor',
-      subtitle:       'AI-powered matching across Pakistan's top verified specialists.',
+      subtitle:       "AI-powered matching across Pakistan's top verified specialists.",
       badge:          'AI Powered Search',
     },
   },
